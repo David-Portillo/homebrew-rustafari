@@ -10,7 +10,7 @@
 # from the release's SHA256SUMS file.
 cask "rustafari" do
   version "0.2.0"
-  sha256 "REPLACE_WITH_DMG_SHA256"
+  sha256 "d62b185b57d70d07ee7dd15de623fdab7213e74e1e0d16c51e66899faa39d9fd"
 
   url "https://github.com/David-Portillo/rustafari/releases/download/v#{version}/rustafari-#{version}-macos.dmg"
   name "rustafari"
