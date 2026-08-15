@@ -17,7 +17,8 @@ cask "rustafari" do
   desc "Swiss Army knife devtoy — offline developer utilities in a single native app"
   homepage "https://github.com/David-Portillo/rustafari"
 
-  depends_on macos: ">= :big_sur"
+  # Matches LSMinimumSystemVersion in packaging/macos/Info.plist.
+  depends_on macos: :big_sur
 
   app "rustafari.app"
 
