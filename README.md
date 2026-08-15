@@ -10,3 +10,4 @@ brew install --cask rustafari
 
 `Casks/rustafari.rb` is updated automatically by the release workflow in the
 main repository. Don't edit it by hand unless a release failed.
+
