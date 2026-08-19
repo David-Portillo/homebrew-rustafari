@@ -9,8 +9,8 @@
 # On each release, bump `version` and replace `sha256` with the DMG's checksum
 # from the release's SHA256SUMS file.
 cask "rustafari" do
-  version "0.3.2"
-  sha256 "f5e5f6706fca57f1eb51f1547fabb68d1a4ad5787371c99aab109a77b1224c93"
+  version "0.4.0"
+  sha256 "fc5dbd75776cbc06681b40b599da54d2fc3c31dbf1d96c54ccf0b4b36567a79e"
 
   url "https://github.com/David-Portillo/rustafari/releases/download/v#{version}/rustafari-#{version}-macos.dmg"
   name "rustafari"
